@@ -1,14 +1,21 @@
-Django>=4.2.10
+Django>=4.2.14
 python-environ==0.4.54
-djangorestframework==3.14.0
+djangorestframework==3.15.2
 psycopg2-binary==2.9.6
 django-cors-headers==4.0.0
 openai==1.12.0
 dj-rest-auth==4.0.1
-django-allauth==0.54.0
+django-allauth==0.63.3
 djangorestframework-simplejwt==5.3.1
 djangorestframework-camel-case==1.4.2
 Pillow==10.2.0
 google-cloud-vision==3.4.2
 spacy==3.7.4
 uvicorn[standard]==0.27.1
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
